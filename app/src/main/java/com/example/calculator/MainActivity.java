@@ -14,8 +14,8 @@ import org.mozilla.javascript.Scriptable;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     TextView resultTv,solutionTv;
-    MaterialButton buttonC,buttonBrackOpen,buttonBrackClose;
-    MaterialButton buttonDivide,buttonMultiply,buttonPlus,buttonMinus,buttonEquals;
+    MaterialButton buttonC,button_open_bracket,button_closed_bracket;
+    MaterialButton button_divide,button_multiply,button_plus,button_minus,button_equals;
     MaterialButton button0,button1,button2,button3,button4,button5,button6,button7,button8,button9;
     MaterialButton buttonAC,buttonDot;
 
@@ -28,13 +28,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         solutionTv = findViewById(R.id.solution_tv);
 
         assignId(buttonC,R.id.button_c);
-        assignId(buttonBrackOpen,R.id.button_open_bracket);
-        assignId(buttonBrackClose,R.id.button_close_bracket);
-        assignId(buttonDivide,R.id.button_divide);
-        assignId(buttonMultiply,R.id.button_multiply);
-        assignId(buttonPlus,R.id.button_plus);
-        assignId(buttonMinus,R.id.button_minus);
-        assignId(buttonEquals,R.id.button_equals);
+        assignId(button_open_bracket,R.id.button_open_bracket);
+        assignId(button_closed_bracket,R.id.button_close_bracket);
+        assignId(button_divide,R.id.button_divide);
+        assignId(button_multiply,R.id.button_multiply);
+        assignId(button_plus,R.id.button_plus);
+        assignId(button_minus,R.id.button_minus);
+        assignId(button_equals,R.id.button_equals);
         assignId(button0,R.id.button_0);
         assignId(button1,R.id.button_1);
         assignId(button2,R.id.button_2);
